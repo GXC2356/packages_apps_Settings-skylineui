@@ -43,4 +43,9 @@
     <string name="notifications_interface_category">Interface</string>
     <string name="notifications_kill_app_button_title">Kill app</string>
     <string name="notifications_kill_app_button_summary">Show a kill app button in the notification\'s longpress menu</string>
+
+    <!-- Allow application downgrade -->
+    <string name="miscellaneous_developer_options_category">Developer options</string>
+    <string name="miscellaneous_app_downgrade_title">Allow application downgrade</string>
+    <string name="miscellaneous_app_downgrade_summary">Allow downgrading system applications, which may result in crashes and data loss</string>
 </resources>

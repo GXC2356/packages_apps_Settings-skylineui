@@ -59,4 +59,11 @@
          android:summary="@string/notifications_kill_app_button_summary"
          android:defaultValue="false" />
 
+    <!-- Allow application downgrade -->
+    <com.android.settings.custom.preference.GlobalSettingSwitchPreference
+        android:key="pm_downgrade_allowed"
+        android:title="@string/miscellaneous_app_downgrade_title"
+        android:summary="@string/miscellaneous_app_downgrade_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
