@@ -52,4 +52,11 @@
         android:summary="@string/idle_manager_summary"
         android:defaultValue="false" />
 
+    <!-- Kill app button -->
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+         android:key="notification_guts_kill_app_button"
+         android:title="@string/notifications_kill_app_button_title"
+         android:summary="@string/notifications_kill_app_button_summary"
+         android:defaultValue="false" />
+
 </PreferenceScreen>
