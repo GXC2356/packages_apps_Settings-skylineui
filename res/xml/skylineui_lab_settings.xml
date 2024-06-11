@@ -66,4 +66,11 @@
         android:summary="@string/miscellaneous_app_downgrade_summary"
         android:defaultValue="false" />
 
+    <!-- Unlimit screenrecord -->
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference 
+        android:key="unlimit_screenrecord"
+        android:title="@string/miscellaneous_unlimit_screenrecord_title"
+        android:summary="@string/miscellaneous_unlimit_screenrecord_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
