@@ -23,4 +23,26 @@
         android:title="@string/skylineui_lab_footer"
         android:selectable="false"
         settings:searchable="false"/>
+
+    <!-- Ignore window secure -->
+    <com.android.settings.custom.preference.GlobalSettingSwitchPreference
+        android:key="window_ignore_secure"
+        android:title="@string/ignore_window_secure_title"
+        android:summary="@string/ignore_window_secure_summary"
+        android:defaultValue="false"/>
+
+     <!-- Black theme for dark mode -->
+      <com.android.settings.custom.preference.SecureSettingSwitchPreference
+        android:key="berry_black_theme"
+        android:title="@string/berry_black_theme_title"
+        android:summary="@string/berry_black_theme_summary"
+        android:defaultValue="false" />
+
+    <!-- Power menu on secure lockscreen -->
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="lockscreen_enable_power_menu"
+        android:title="@string/lockscreen_enable_power_menu_title"
+        android:summary="@string/lockscreen_enable_power_menu_summary"
+        android:defaultValue="true" />
+    
 </PreferenceScreen>
